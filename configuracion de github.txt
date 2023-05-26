@@ -1,0 +1,20 @@
+// listar credenciales globales
+
+git config --global --list
+
+// configuración de credenciales
+git config --global user.name "usuario"
+git config --global user.password "clave"
+
+// remover configuración de credenciales
+git config --global --remove-section user.name="usuario"
+git config --global --remove-section user.password="clave"
+git config --global --remove-section user.email="correo"
+
+// sincronizar el repositorio en github
+
+git init
+git add . 
+git commit -m 'Inicio del repositorio de 16 adso'
+git remote add origin https://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@ github.com/jhongerardo/16adso.git
+
