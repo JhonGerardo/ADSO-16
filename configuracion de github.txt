@@ -16,5 +16,5 @@ git config --global --remove-section user.email="correo"
 git init
 git add . 
 git commit -m 'Inicio del repositorio de 16 adso'
-git remote add origin https://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@ github.com/jhongerardo/16adso.git
+git remote add origin https://github
 
